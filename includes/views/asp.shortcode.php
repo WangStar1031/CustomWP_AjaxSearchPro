@@ -92,7 +92,28 @@ if ($blocking == 'block'): ?>
         document.getElementsByClassName("prosettings")[0].click();
     }
 </script>
-
+<style type="text/css">
+    div#ajaxsearchprosettings<?php echo $id; ?>{
+        left: auto;
+        right: 0px;
+        width: 405px !important;
+    }
+    div.asp_s.asp_s_<?php echo $id; ?>.searchsettings{
+        background: #404040;
+        background-image: unset!important;
+        padding: 0px 30px !important;
+    }
+    @media only screen and (max-width: 768px) {
+        body {
+            /*background-color: lightblue;*/
+        }
+        div#ajaxsearchprosettings<?php echo $id; ?>{
+            left: auto;
+            right: 0px;
+            width: 100% !important;
+        }
+    }
+</style>
 <?php
 
 /******************* SETTINGS INCLUDE *******************/

@@ -5963,16 +5963,6 @@ div.ajaxsearchpro.searchsettings .noUi-horizontal .noUi-handle {
 div.ajaxsearchpro.searchsettings .noUi-handle:before, div.ajaxsearchpro.searchsettings .noUi-handle:after{
     background: none;
 }
-div#ajaxsearchprosettings8_1{
-    left: auto;
-    right: 0px;
-    width: 405px !important;
-}
-div.asp_s.asp_s_8.searchsettings{
-    background: #404040;
-    background-image: unset!important;
-    padding: 0px 30px !important;
-}
 
 div.ajaxsearchpro.searchsettings .asp_noui_l_pre, div.ajaxsearchpro.searchsettings .slider-handles-low, div.ajaxsearchpro.searchsettings .asp_noui_l_suff, 
 div.ajaxsearchpro.searchsettings .asp_noui_u_pre, div.ajaxsearchpro.searchsettings .slider-handles-up, div.ajaxsearchpro.searchsettings .asp_noui_u_suff{
