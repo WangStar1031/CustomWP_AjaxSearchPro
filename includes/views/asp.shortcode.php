@@ -94,9 +94,12 @@ if ($blocking == 'block'): ?>
 </script>
 <style type="text/css">
     div#ajaxsearchprosettings<?php echo $id; ?>{
-        left: auto;
+        left: auto !important;
         right: 0px;
         width: 405px !important;
+    }
+    div.asp_s.asp_s_<?php echo $id; ?>.searchsettings fieldset{
+        width: 100%;
     }
     div.asp_s.asp_s_<?php echo $id; ?>.searchsettings{
         background: #404040;
